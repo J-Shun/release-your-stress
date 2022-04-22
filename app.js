@@ -16,6 +16,10 @@ icons.forEach(icon => {
     })
 })
 
+// for fun
+window.addEventListener('touchstart', () => {
+    audio.cloneNode().play();
+})    
 
 window.addEventListener('click', () => {
     audio.cloneNode().play();
