@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Release Your Stress</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+
+    <h2>Choose Your Sound Effect</h2>
+    <div class="icons">
+        <div class="icon" data-key="break">
+            <i class="fa fa-heart-crack"></i>
+        </div>
+        <div class="icon" data-key="bell">
+            <i class="fa fa-bell"></i>
+        </div>
+        <div class="icon" data-key="thunder">
+            <i class="fa fa-bolt"></i>
+        </div>
+        <div class="icon" data-key="sweep">
+            <i class="fa fa-wind"></i>
+        </div>
+    </div>
+
+
+    <audio src="./sound/break.wav" data-key="break"></audio>
+    <audio src="./sound/bell.wav" data-key="bell"></audio>
+    <audio src="./sound/thunder.wav" data-key="thunder"></audio>
+    <audio src="./sound/sweep.wav" data-key="sweep"></audio>
+
+    <script src="./app.js"></script>
+</body>
+</html>
