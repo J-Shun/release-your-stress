@@ -12,7 +12,11 @@ icons.forEach(icon => {
         }
         e.target.classList.add('click');
         effect = e.target.dataset.key;
-        console.log(effect);
+        audio = document.querySelector(`audio[data-key="${effect}"]`);
     })
 })
 
+
+window.addEventListener('click', () => {
+    audio.cloneNode().play();
+})    
